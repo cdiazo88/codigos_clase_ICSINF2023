@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form-control {
+        margin-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="" method="post">
+      <div class="form-control">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          name=""
+          id="nombre"
+          placeholder="Ingrese su nombre"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="rut">Rut</label>
+        <input
+          type="text"
+          name=""
+          id="rut"
+          placeholder="00.000.000-a"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="contrasena">Contraseña</label>
+        <input
+          type="password"
+          name=""
+          id="contrasena"
+          placeholder="Ingrese su clave"
+          required
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="correo">Correo</label>
+        <input
+          type="email"
+          name=""
+          id="correo"
+          placeholder="Ingrese su correo"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="numero">Numero</label>
+        <input type="number" name="" id="numero" min="1" max="5" />
+      </div>
+
+      <div class="form-control">
+        <h3>Colores</h3>
+        <div>
+          <input type="radio" name="color" id="idrojo" value="rojo" checked />
+          <label for="idrojo">Rojo</label>
+        </div>
+        <div>
+          <input type="radio" name="color" id="idverde" value="verde" />
+          <label for="idverde">Verde</label>
+        </div>
+        <div>
+          <input type="radio" name="color" id="idamarillo" value="amarillo" />
+          <label for="idamarillo">Amarillo</label>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <h3>comidas</h3>
+        <div>
+          <input type="checkbox" name="comida" id="burger" />
+          <label for="burger">Burger</label>
+        </div>
+        <div>
+          <input type="checkbox" name="comida" id="pizza" />
+          <label for="pizza">Pizza</label>
+        </div>
+        <div>
+          <input type="checkbox" name="comida" id="papas" />
+          <label for="papas">Papas Fritas</label>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="file" name="archivo" id="file" multiple>
+      </div>
+
+      <div class="form-control">
+        <input type="color" name="colores" id="color">
+        <label for="colores">Colores</label>
+      </div>
+
+      <div class="form-control">
+        <input type="search" name="busqueda" id="buscar">
+        <button>Buscar</button>
+      </div>
+
+      <div class="form-control">
+        <input type="url" name="" id="url" maxlength="10" placeholder="http://www.mipagina.com">
+        <label for="url">Url</label>
+      </div>
+
+      <div class="form-control">
+        <input type="datetime-local" name="fecha" id="fecha">
+        <input type="week" name="semana" id="semana">
+        <input type="month" name="mes" id="mes">
+      </div>
+
+      <div class="form-control">
+        <input type="range" name="rango" id="rango">
+        <label for="ramgo">volumen</label>
+      </div>
+
+      <div class="form-control">
+        <select name="" id="">
+            <option value="0">Lenguajes de programacion</option>
+            <option value="c" disabled>C</option>
+            <option value="javascript" selected>Javascript</option>
+            <option value="java">java</option>
+            <option value="phyton">phyton</option>
+        </select>
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      
+
+
+
+
+
+
+
+
+
+
+      <hr />
+      <input type="submit" value="Ingresar" />
+      <hr>
+      <!-- <input type="button" value="Ingresar button"> -->
+    </form>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulo{color: green;}
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Hola soy un titulo</h1>
+    <h1 class="titulo">Hola soy un titulo 2</h1>
+    <button onclick="cambiaColor()">cambia color texto</button>
+    <button onclick="mostrarAlerta()">mostrar alerta</button>
+</body>
+<script>
+    function cambiaColor() {
+        const elemento = document.getElementsByClassName('titulo');
+        console.log(elemento);
+        elemento[0].style.color="blue";
+    }
+
+    function mostrarAlerta() {
+        alert('Hola soy una alerta');
+    }
+</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <form class="login-form">
+        <h2>Iniciar sesión</h2>
+        <div class="form-group">
+          <label for="usuario">Usuario</label>
+          <input type="text" id="usuario" name="usuario">
+        </div>
+        <div class="form-group">
+          <label for="contraseña">Contraseña</label>
+          <input type="password" id="contraseña" name="contraseña">
+        </div>
+        <button type="submit" onclick="validarContrasena()">Iniciar sesión</button>
+        <p class="forgot-password"><a href="#">¿Olvidaste tu contraseña?</a></p>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
